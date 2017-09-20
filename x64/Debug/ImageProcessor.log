@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/6/13 19:06:18。
+     1>项目“C:\Users\Administrator\Desktop\ImageProcessor\ImageProcessor.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing imgprocessor.h...
+         Moc'ing showwidget.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_imgprocessor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_imgprocessor.cpp, Release\moc_imgprocessor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_showwidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_showwidget.cpp, Release\moc_showwidget.cpp.
+       ClCompile:
+         F:\vs\VC\bin\x86_amd64\CL.exe /c /I. /I..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\include /I..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\include\QtPrintSupport /I..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\include\QtWidgets /I..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\include\QtGui /I..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\include\QtANGLE /I..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\include\QtCore /Idebug /I"..\..\..\..\qt\qt5.6.0\5.6\msvc2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 Debug\moc_imgprocessor.cpp Debug\moc_showwidget.cpp
+         moc_imgprocessor.cpp
+     1>c:\users\administrator\desktop\imageprocessor\debug\../imgprocessor.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\imageprocessor\showwidget.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_showwidget.cpp
+     1>c:\users\administrator\desktop\imageprocessor\debug\../showwidget.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         F:\vs\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\ImageProcessor.exe" /NOLOGO /LIBPATH:C:\qt\qt5.6.0\5.6\msvc2013_64\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\Qt\Qt5.6.0\5.6\msvc2013_64\lib C:\qt\qt5.6.0\5.6\msvc2013_64\lib\qtmaind.lib shell32.lib C:\qt\qt5.6.0\5.6\msvc2013_64\lib\Qt5PrintSupportd.lib C:\qt\qt5.6.0\5.6\msvc2013_64\lib\Qt5Widgetsd.lib C:\qt\qt5.6.0\5.6\msvc2013_64\lib\Qt5Guid.lib C:\qt\qt5.6.0\5.6\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\ImageProcessor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\moc_imgprocessor.obj
+         x64\Debug\moc_showwidget.obj
+         x64\Debug\imgprocessor.obj
+         x64\Debug\main.obj
+         x64\Debug\showwidget.obj
+         ImageProcessor.vcxproj -> C:\Users\Administrator\Desktop\ImageProcessor\debug\ImageProcessor.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\ImageProcessor\ImageProcessor.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.58
